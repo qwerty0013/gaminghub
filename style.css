@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: linear-gradient(45deg, #ff6b6b, #56ccf2);
+  color: #1b1b1b;
+  padding-top: 70px;
+}
+
+.container {
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-top: 20px;
+}
+
+h1 {
+  color: #007bff;
+}
+
+nav {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  border-radius: 0 0 10px 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 20px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav img {
+  max-width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.logo {
+  max-width: 80px;
+  height: auto;
+  display: block;
+  margin-right: 30px;
+}
+.user-info {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.user-info img {
+  max-width: 30px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  margin-top: 50px;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+main img {
+  max-height: 250px;
+}
+.game-container,
+.forums-container,
+.patreon-container,
+.faq-container,
+.social-media-container {
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid #333;
+  border-radius: 10px;
+  overflow: hidden;
+  min-width: 550px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.game-container:hover,
+.forums-container:hover,
+.patreon-container:hover,
+.faq-container:hover,
+.social-media-container:hover {
+  transform: scale(1.05);
+}
+
+.about-content {
+  margin-top: 20px;
+}
+.team-member {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.team-member img {
+  height: 80px;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+.team-member-text {
+  flex: 1;
+}
+
+.container a,
+.game-container a,
+.forums-container a,
+.patreon-container a,
+.faq-container a,
+.social-media-container a {
+  text-decoration: none;
+  color: #333;
+}
+
+.game-container h2,
+.forums-container h2,
+.patreon-container h2,
+.faq-container h2,
+.social-media-container h2 {
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 9px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
